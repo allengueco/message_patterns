@@ -16,4 +16,4 @@ python3 generate_message_db.py <handle_id1> <handle_id2>
 ```
 python3 generate_graphs.py messages.csv seaborn-pastel
 ```
-This is the a very rough code and it is mainly me trying to learn matplotlib styles.
+This is the a very rough code and it is mainly me trying to learn matplotlib styles and answer some questions about trends.
