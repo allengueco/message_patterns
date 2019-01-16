@@ -4,7 +4,7 @@ import sys
 
 HANDLE_IDS = sys.argv[1:]
 
-PATH_TO_DB = "" # add your on PATH
+PATH_TO_DB = "" # add your own PATH
 
 conn = sqlite3.connect(PATH_TO_DB)
 c = conn.cursor()
