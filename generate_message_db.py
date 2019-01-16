@@ -4,9 +4,9 @@ import sys
 
 HANDLE_IDS = sys.argv[1:]
 
-PATH_TO_DF = r"C:/Users/allen/Apple/MobileSync/Backup/5b682042b25d44338cdfb2fd31cfc8463a659b27/3d/3d0d7e5fb2ce288813306e4d4636395e047a3d28"
+PATH_TO_DB = "" # add your on PATH
 
-conn = sqlite3.connect(PATH_TO_DF)
+conn = sqlite3.connect(PATH_TO_DB)
 c = conn.cursor()
 
 # get message df with the handles
@@ -55,5 +55,5 @@ messages['text_length'] = [len(text) for text in messages.text]
 messages['num_words'] = [len(text.split(" ")) for text in messages.text]
 
 
-# import
+# export as csv file
 messages.to_csv("messages.csv", sep=',', encoding='utf-8')
