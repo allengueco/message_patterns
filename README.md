@@ -10,10 +10,10 @@ Steps:
 one phone number: one for SMS, and one for iMessage
 2) Edit the generate_messaeg_db.py by changing the PATH_TO_DF variable to the location of the iMessage database and run the following code to produce `message_db.csv` file:
 ```
-$python3 generate_message_db.py <handle_id1> <handle_id2>
+$ python3 generate_message_db.py <handle_id1> <handle_id2>
 ```
 3) Next, run the generate_graphs.py. It takes a required argument that takes in a matplotlib style which produces 9 graphs in the directory in which it is executed. An example would be 'seaborn-pastel'
 ```
-$python3 generate_graphs.py messages.csv seaborn-pastel
+$ python3 generate_graphs.py messages.csv seaborn-pastel
 ```
 This is the a very rough code and it is mainly me trying to learn matplotlib styles and answer some questions about trends.
