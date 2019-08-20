@@ -1,3 +1,3 @@
 # message_patterns
 
-analyzing conversations with graphs.
+Learning how to use matplotlib and related libraries by analyzing iMessage conversations. Check out example_graphs!
